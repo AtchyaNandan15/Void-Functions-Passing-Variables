@@ -1,0 +1,62 @@
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date Novmeber 24rd  2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn how to use string manipulation                                                      
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  string firstName.....................................the user enters their first name
+                    string lastName..........................................the user enters their last name
+                    int i.....................................the letter for the for loop
+                    int len..........................................the length of the words
+
+********************************************************************************************************************/
+
+#include <iostream>
+#include <string> 
+#include<ctype.h>
+using namespace std;
+
+void nickName(string x, string y, int l);
+
+int main()
+
+{
+  
+ string firstName;
+ string lastName;
+ int i;
+ int len;
+ 
+ cout<<" Enter your first name\n";
+ cin>>firstName;
+ cout<<" Enter you last name\n";
+ cin>>lastName;
+ 
+ nickName(firstName, lastName, len);
+ 
+ 
+ 
+}
+ 
+  
+  
+  
+void nickName(string x, string y, int l){
+  
+  
+  
+    l=x.length();
+ 
+    l = l - 3;
+    
+    x.append(y, 0, 2);
+    
+    cout<<x.replace(0, l, "");
+    
+
+  }
+
+  
+    
+  
+

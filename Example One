@@ -1,0 +1,46 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+//declare a function that puts out a greeting
+void helloWorld(string name, int x);
+
+
+//the string is first
+int main()
+{
+ 
+ string mainName;
+ int num;
+ cout<<" Enter a name and a number";
+ cin>>mainName;
+ cin>>num;
+ 
+//call hello world function    
+helloWorld(mainName, num);
+
+    
+    
+}
+
+
+//writing the function
+void helloWorld(string name, int x){
+    int i;
+    for(i=0;i<x;i++){
+    
+    
+     cout<<"Hello world\n"<<name;
+     
+    }
+     
+}
+

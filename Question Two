@@ -1,8 +1,8 @@
 /********************************************************************************************************************
 *  Atchya Nandan                                                                                       
-*  Date Novmeber 24rd  2019                                                                            
+*  Date: December 10th 2019                                                                            
 *  Program: Dev c++ 5.11                                                                               
-*  Purpose: Learn how to use string manipulation                                                      
+*  Purpose: Learn how to use void function passing variables                                                      
 * ---------------------------------------------------------------------                                
 * Date Dictionary:  string firstName.....................................the user enters their first name
                     string lastName..........................................the user enters their last name

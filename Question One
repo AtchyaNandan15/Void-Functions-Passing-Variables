@@ -1,0 +1,65 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include<string>
+#include<math.h>
+using namespace std;
+
+void addFunct(int x, int y);
+void subFunct(int x, int y);
+void mulFunct(int x, int y);
+void expFunct(int x, int y);
+
+
+int main()
+{
+  int num1;
+  int num2;
+  
+  cout<<"Enter two numbers";
+  cin>>num1;
+  cin>>num2;
+  
+  addFunct(num1,num2);
+  subFunct(num1,num2);
+  mulFunct(num1,num2);
+  expFunct(num1,num2);
+  
+  
+}
+
+void addFunct(int x, int y){
+    
+    cout<<" The sum is "<<x+y<<" \n";
+    
+}
+
+void subFunct(int x, int y){
+     
+    cout<<" The difference is "<<x-y<<" \n";
+    
+}
+
+void mulFunct(int x, int y){
+    
+    cout<<" The product is "<<x*y<<" \n";
+    
+}
+
+void expFunct(int x, int y){
+    int expo= pow(x,y);
+    cout<<" The answer for the exponents "<<expo<<" \n";
+    
+}
+
+
+
+
+
+

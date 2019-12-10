@@ -16,6 +16,7 @@
 #include<ctype.h>
 using namespace std;
 
+//delcaring the function
 void nickName(string x, string y, int l);
 
 int main()
@@ -32,6 +33,7 @@ int main()
  cout<<" Enter you last name\n";
  cin>>lastName;
  
+ //calls the function
  nickName(firstName, lastName, len);
  
  
@@ -40,7 +42,7 @@ int main()
  
   
   
-  
+//writing the function  
 void nickName(string x, string y, int l){
   
   

@@ -35,7 +35,7 @@ int main()
   addFunct(num1,num2);
   subFunct(num1,num2);
   mulFunct(num1,num2);
-  expFunct(num1,num2);
+  expFunct(num1,num2); 
   
   
 }
